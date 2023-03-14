@@ -1,7 +1,11 @@
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
-const CTermItem = () => {
-  return <View>CTermItem</View>;
+const CTermItem = ({ route, navigation }) => {
+  return (
+    <View>
+      <Text>CTermItem</Text>
+    </View>
+  );
 };
 
 export default CTermItem;
