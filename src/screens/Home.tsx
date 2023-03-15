@@ -1,17 +1,18 @@
-import { Text, TouchableOpacity, View, TextInput } from "react-native";
+import {
+  Text,
+  TouchableOpacity,
+  ScrollView,
+  View,
+  TextInput,
+} from "react-native";
+import { data } from "../data";
 import { styles } from "../styles/HomeStyle";
-
-const data = [
-  { id: 0, term: "autentifikatsiya" },
-  { id: 1, term: "identifikatsiya" },
-  { id: 2, term: "avtorizatsiya" },
-];
 
 const Home = ({ navigation }) => {
   const { searchInput, termButton, termText } = styles;
 
   return (
-    <View>
+    <ScrollView>
       <TextInput placeholder="Qidirish" style={searchInput} />
       <View>
         {data.map((item, index) => (
@@ -26,7 +27,7 @@ const Home = ({ navigation }) => {
           </TouchableOpacity>
         ))}
       </View>
-    </View>
+    </ScrollView>
   );
 };
 

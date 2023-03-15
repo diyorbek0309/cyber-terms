@@ -13,13 +13,20 @@ export const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   termButton: {
-    paddingVertical: 8,
-    paddingLeft: 15,
+    paddingTop: 8,
     borderBottomColor: "#015c6e",
     borderBottomWidth: 1,
-    backgroundColor: "#fff"
+    backgroundColor: "#fff",
   },
   termText: {
     fontSize: 20,
+    paddingLeft: 15,
+    paddingBottom: 8,
+  },
+  termTitle: {
+    fontSize: 24,
+    textAlign: "center",
+    textTransform: "uppercase",
+    marginVertical: 10,
   },
 });

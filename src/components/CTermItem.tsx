@@ -1,10 +1,16 @@
-import { View, Text } from "react-native";
+import { View, ScrollView, Text } from "react-native";
+import { styles } from "../styles/HomeStyle";
+import { data } from "../data";
 
-const CTermItem = ({ route, navigation }) => {
+const CTermItem = ({ route }) => {
+  const { termID } = route.params;
+  const { termTitle, termText } = styles;
+
   return (
-    <View>
-      <Text>CTermItem</Text>
-    </View>
+    <ScrollView>
+      <Text style={termTitle}>{data[termID].term}</Text>
+      <Text style={termText}>{data[termID].description}</Text>
+    </ScrollView>
   );
 };
 
