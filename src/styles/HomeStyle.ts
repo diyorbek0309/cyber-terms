@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   searchInput: {
     paddingVertical: 3,
-    paddingHorizontal: 5,
+    paddingHorizontal: 7,
     fontSize: 20,
     borderColor: "#03d3fc",
     borderWidth: 2,
@@ -28,5 +28,10 @@ export const styles = StyleSheet.create({
     textAlign: "center",
     textTransform: "uppercase",
     marginVertical: 10,
+  },
+  noTermText: {
+    textAlign: "center",
+    fontSize: 20,
+    marginTop: 10,
   },
 });

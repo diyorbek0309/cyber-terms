@@ -12,7 +12,7 @@ import { styles } from "../styles/HomeStyle";
 const Home = ({ navigation }) => {
   const [search, setSearch] = useState("");
   const [termsList, setTermsList] = useState(data);
-  const { searchInput, termButton, termText } = styles;
+  const { searchInput, termButton, termText, noTermText } = styles;
 
   const searchInputHandler = (search: string) => {
     setSearch(search);
@@ -64,7 +64,7 @@ const Home = ({ navigation }) => {
             </TouchableOpacity>
           ))
         ) : (
-          <Text>Termin topilmadi!</Text>
+          <Text style={noTermText}>Termin topilmadi!</Text>
         )}
       </View>
     </ScrollView>
