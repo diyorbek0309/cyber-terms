@@ -5,14 +5,25 @@ import {
   View,
   TextInput,
 } from "react-native";
-import { useState } from "react";
-import { data } from "../data";
+import { useState, useContext, useEffect } from "react";
+import { ThemeContext } from "../services/ThemeContext";
+import { uz, en } from "../data";
 import { styles } from "../styles/HomeStyle";
 
 const Home = ({ navigation }) => {
+  const { isLight, language } = useContext(ThemeContext);
+  const data = language === "uz" ? uz : en;
   const [search, setSearch] = useState("");
-  const [termsList, setTermsList] = useState(data);
   const { searchInput, termButton, termText, noTermText } = styles;
+  const [termsList, setTermsList] = useState(uz);
+
+  useEffect(() => {
+    const languageResources = {
+      uz,
+      en,
+    };
+    setTermsList(languageResources[language]);
+  }, [language]);
 
   const searchInputHandler = (search: string) => {
     setSearch(search);
@@ -51,7 +62,7 @@ const Home = ({ navigation }) => {
         onChangeText={(search) => searchInputHandler(search)}
       />
       <View>
-        {termsList.length ? (
+        {termsList && termsList.length ? (
           termsList.map((item, index) => (
             <TouchableOpacity
               key={index}
@@ -64,7 +75,9 @@ const Home = ({ navigation }) => {
             </TouchableOpacity>
           ))
         ) : (
-          <Text style={noTermText}>Termin topilmadi!</Text>
+          <Text style={noTermText}>
+            {language === "uz" ? "Termin topilmadi!" : "Terms are not found!"}
+          </Text>
         )}
       </View>
     </ScrollView>

@@ -1,7 +1,8 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useState } from "react";
-import { TouchableOpacity, Image } from "react-native";
+import { Picker } from "@react-native-picker/picker";
+import { TouchableOpacity, Image, View } from "react-native";
 import CTermItem from "./src/components/CTermItem";
 import HomeScreen from "./src/screens/Home";
 import { eColors, eImages } from "./src/types/enum";
@@ -11,10 +12,15 @@ const { Navigator, Screen, Group } = createNativeStackNavigator();
 
 function App() {
   const [isLight, setIsLight] = useState(true);
+  const [language, setLanguage] = useState("uz");
+  const languages = [
+    { label: "UZ", value: "uz" },
+    { label: "EN", value: "en" },
+  ];
 
   return (
     <NavigationContainer>
-      <ThemeContext.Provider value={{ isLight }}>
+      <ThemeContext.Provider value={{ isLight, language }}>
         <Navigator>
           <Group
             screenOptions={({ navigation }) => ({
@@ -25,14 +31,43 @@ function App() {
                 color: isLight ? eColors.BLACK : eColors.WHITE,
               },
               headerRight: () => (
-                <TouchableOpacity onPress={() => setIsLight(!isLight)}>
-                  <Image source={isLight ? eImages.MOON : eImages.SUN} />
-                </TouchableOpacity>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    width: 140,
+                  }}
+                >
+                  <Picker
+                    selectedValue={language}
+                    onValueChange={(itemValue) => setLanguage(itemValue)}
+                    style={{ width: 90 }}
+                  >
+                    {languages.map((lang) => (
+                      <Picker.Item
+                        key={lang.value}
+                        label={lang.label}
+                        value={lang.value}
+                      />
+                    ))}
+                  </Picker>
+                  <TouchableOpacity
+                    onPress={() => setIsLight(!isLight)}
+                    style={{ marginTop: 10 }}
+                  >
+                    <Image source={isLight ? eImages.MOON : eImages.SUN} />
+                  </TouchableOpacity>
+                </View>
               ),
               headerTintColor: isLight ? eColors.BLACK : eColors.WHITE,
             })}
           >
-            <Screen name="Bosh sahifa" component={HomeScreen} />
+            <Screen
+              name="Bosh sahifa"
+              component={HomeScreen}
+              options={{ title: language === "uz" ? "Bosh sahifa" : "Home" }}
+            />
             <Screen name="Termin" component={CTermItem} />
           </Group>
         </Navigator>
