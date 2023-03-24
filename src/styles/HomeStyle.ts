@@ -10,13 +10,11 @@ export const styles = StyleSheet.create({
     borderStyle: "solid",
     margin: 15,
     borderRadius: 8,
-    backgroundColor: "#fff",
   },
   termButton: {
     paddingTop: 8,
-    borderBottomColor: "#015c6e",
+    borderBottomColor: "#029999",
     borderBottomWidth: 1,
-    backgroundColor: "#fff",
   },
   termText: {
     fontSize: 20,

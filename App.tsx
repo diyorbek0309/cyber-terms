@@ -42,7 +42,11 @@ function App() {
                   <Picker
                     selectedValue={language}
                     onValueChange={(itemValue) => setLanguage(itemValue)}
-                    style={{ width: 90 }}
+                    style={{
+                      width: 90,
+                      color: isLight ? eColors.BLACK : eColors.WHITE,
+                    }}
+                    dropdownIconColor={isLight ? eColors.BLACK : eColors.WHITE}
                   >
                     {languages.map((lang) => (
                       <Picker.Item

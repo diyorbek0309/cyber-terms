@@ -9,6 +9,7 @@ import { useState, useContext, useEffect } from "react";
 import { ThemeContext } from "../services/ThemeContext";
 import { uz, en } from "../data";
 import { styles } from "../styles/HomeStyle";
+import { eColors } from "../types/enum";
 
 const Home = ({ navigation }) => {
   const { isLight, language } = useContext(ThemeContext);
@@ -51,28 +52,52 @@ const Home = ({ navigation }) => {
   };
 
   return (
-    <ScrollView>
+    <ScrollView
+      style={{ backgroundColor: isLight ? eColors.LIGHT : eColors.DARK }}
+    >
       <TextInput
         placeholder="Qidirish"
-        style={searchInput}
+        style={[
+          {
+            backgroundColor: isLight ? "#fff" : eColors.DARK,
+            color: isLight ? eColors.DARK : eColors.LIGHT,
+          },
+          searchInput,
+        ]}
         value={search}
         onChangeText={(search) => searchInputHandler(search)}
+        placeholderTextColor={isLight ? "#aaa" : eColors.LIGHT}
       />
       <View>
         {termsList && termsList.length ? (
           termsList.map((item, index) => (
             <TouchableOpacity
               key={index}
-              style={termButton}
+              style={[
+                { backgroundColor: isLight ? eColors.LIGHT : eColors.DARK },
+                termButton,
+              ]}
               onPress={() => {
                 navigation.navigate("Termin", { termID: item.id });
               }}
             >
-              <Text style={termText}>{item.term}</Text>
+              <Text
+                style={[
+                  { color: isLight ? eColors.DARK : eColors.WHITE },
+                  termText,
+                ]}
+              >
+                {item.term}
+              </Text>
             </TouchableOpacity>
           ))
         ) : (
-          <Text style={noTermText}>
+          <Text
+            style={[
+              { color: isLight ? eColors.DARK : eColors.LIGHT },
+              noTermText,
+            ]}
+          >
             {language === "uz" ? "Termin topilmadi!" : "Terms are not found!"}
           </Text>
         )}

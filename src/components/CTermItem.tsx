@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { ThemeContext } from "../services/ThemeContext";
 import { styles } from "../styles/HomeStyle";
 import { uz, en } from "../data";
+import { eColors } from "../types/enum";
 
 const CTermItem = ({ route }) => {
   const { termID } = route.params;
@@ -12,9 +13,19 @@ const CTermItem = ({ route }) => {
   const data = language === "uz" ? uz : en;
 
   return (
-    <ScrollView>
-      <Text style={termTitle}>{data[termID].term}</Text>
-      <Text style={termText}>{data[termID].description}</Text>
+    <ScrollView
+      style={{ backgroundColor: isLight ? eColors.LIGHT : eColors.DARK }}
+    >
+      <Text
+        style={[{ color: isLight ? eColors.DARK : eColors.LIGHT }, termTitle]}
+      >
+        {data[termID].term}
+      </Text>
+      <Text
+        style={[{ color: isLight ? eColors.DARK : eColors.LIGHT }, termText]}
+      >
+        {data[termID].description}
+      </Text>
     </ScrollView>
   );
 };

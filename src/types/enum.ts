@@ -13,6 +13,8 @@ enum eSvoyak {
 enum eColors {
   WHITE = "#76ffff",
   BLACK = "#001e3c",
+  LIGHT = "#baf5f5",
+  DARK = "#022a54",
 }
 
 enum eImages {
