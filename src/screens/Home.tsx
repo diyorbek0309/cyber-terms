@@ -18,10 +18,7 @@ const Home = ({ navigation }) => {
   const [termsList, setTermsList] = useState(uz);
 
   useEffect(() => {
-    const languageResources = {
-      uz,
-      en,
-    };
+    const languageResources = { uz, en };
     setTermsList(languageResources[language]);
   }, [language]);
 

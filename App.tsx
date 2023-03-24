@@ -68,7 +68,11 @@ function App() {
               component={HomeScreen}
               options={{ title: language === "uz" ? "Bosh sahifa" : "Home" }}
             />
-            <Screen name="Termin" component={CTermItem} />
+            <Screen
+              name="Termin"
+              component={CTermItem}
+              options={{ title: language === "uz" ? "Termin" : "Term" }}
+            />
           </Group>
         </Navigator>
       </ThemeContext.Provider>
