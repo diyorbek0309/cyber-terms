@@ -2,7 +2,8 @@ export const uz = [
   {
     id: 0,
     term: "autentifikatsiya",
-    description: "Foydalanuvchi identifikatsiyasini tasdiqlash",
+    description:
+      "odatda, tizim resurslaridan foydalanishga ruxsat etish xususida qaror qabul qilish uchun foydalanuvchining (haqiqiyligini), qurilmaning yoki tizimning boshqa tashkil etuvchisining identifikatsiyasini tekshirish saqlanuvchi va uzatiluvchi ma’lumotlarning ruxsatsiz modifikatsiyalanganligini aniqlash uchun tekshirish",
   },
   {
     id: 1,
@@ -13,38 +14,49 @@ export const uz = [
     id: 2,
     term: "avtorizatsiya",
     description:
-      "Foydalanuvchi tomonidan amalga oshirilgan har qanday operatsiyalar uchun ruxsat berish",
+      "tizimda foydalanuvchiga, uning ijobiy autenfikatsiyasiga asosan, ma’lum foydalanish huquqlarini taqdim etish",
   },
-  { id: 3, term: "domen", description: "Tarmoqqa ulanish uchun nom" },
-  { id: 4, term: "shifrlash", description: "Ma'lumotlarni himoyalash usuli" },
+  {
+    id: 3,
+    term: "algoritm",
+    description:
+      "amallaring cheklangan soni yordamida masala yechimmi belgilovchi buyruqlaming cheklangan to‘plami",
+  },
+  {
+    id: 4,
+    term: "antibot",
+    description:
+      "robot-dasturlami, ayg‘oqchi dasturlarni (Spyware), ruxsatsiz o'rnatilgan reklama dasturiy ta’minotini (Adware) va boshqa zarar keltiruvchi dasturiy ta’minot turlarini avtomatik tarzdaaniqlovchi va yo ‘q qiluvchi dasturiy ta’minot",
+  },
   {
     id: 5,
-    term: "de-shifrlash",
+    term: "antivirus",
     description:
-      "Shifrlangan ma'lumotlarni boshqa usullar orqali oqib oluvchi jarayon",
+      "viruslarni aniqlovchi yoki aniqlovchi va yo‘q qiluvchi dastur. Agar virus yo‘q qilinmasa, zaharlangan dastur yo‘q qilinadi. Shuningdek, viruslardan himovalashga, zaharlangan dasturiy modullar va tizimli makonlami aniqlashga hamda zaharlangan obyektlaming dastlabki holatini tiklashga moMjallangan dastur",
   },
   {
     id: 6,
-    term: "firewall",
-    description: "Tarmoqni himoyalashni ta'minlaydigan dasturiy vosita",
+    term: "hujum",
+    description:
+      "bosqinchining operatsion muhitini boshqarishiga imkon beruvchi axborot tizimi xavfsizligming buzilishi",
   },
   {
     id: 7,
-    term: "virus",
+    term: "audit",
     description:
-      "O'zaro almashinuvchan ma'lumotlar, fayllar yoki dasturlar, boshqa dasturlarning ishlashiga ta'sir qilish",
+      "kompyuter tizimi xavfsizligiga ta’sir etuvchi, bo'lishi mumkin bo‘lgan xavfli harakatlarni xarakterlovchi, oldindan aniqlangan hodisalar to‘plamini ro‘yxatga olish (audit faylida qaydlash) yo‘li bilan himoyalanishni nazoratlash",
   },
-  { id: 8, term: "malware", description: "Zararli dasturlar va fayllar" },
+  {
+    id: 8,
+    term: "autentifikator",
+    description:
+      "foydalanuvchining farqli alomatini ifodalovchi autentifikatsiya vositasi. Qo‘shimcha kod so‘zlari, biometrik ma’lumotlar va foydalanuvchining boshqa farqli alomatlari autentifikatsiya vositalari bo'lishi mumkin",
+  },
   {
     id: 9,
-    term: "phishing",
+    term: "biometrik autentifikatsiya",
     description:
-      "Maxfiy ma'lumotlarni olish maqsadida elektron pochtalar, xabarlar yoki havolalar yordamida foydalanuvchilarni qo'llab-quvvatlash",
-  },
-  {
-    id: 10,
-    term: "hacking",
-    description: "Tizimlarga yoki kompyuterlarga maxfiy ravishda kirish",
+      "abonentni (foydalanuvchini) uning biometrik xarakteristikasi (barmoq izlari, panja geometriyasi, yuzi, ovozi, ko‘z pardasining to'ri va h.) asosidagi autentifikatsiyalash usuli. Ushbu usulning afzalligi - biometrik xarakteristikalarni foydalanuvchidan ajratib bo‘lmasligi. Ularni esdan chiqarishning, yo'qotishnmg yoki boshqa foydalanuvchiga berishning iloji yo‘q",
   },
   {
     id: 11,
@@ -93,33 +105,33 @@ export const uz = [
 export const en = [
   {
     id: 0,
-    term: "DDoS attack",
+    term: "authentification",
     description:
       "A form of cyberattack that involves flooding a network or website with high volumes of traffic to disrupt normal operation.",
   },
   {
     id: 1,
-    term: "malware",
+    term: "identification",
     description:
       "A type of malicious software designed to infiltrate and harm computer systems without the user's consent, compromising the security of the system.",
   },
   {
     id: 2,
-    term: "wireless insecurity",
+    term: "authorization",
     description:
-      "A security issue for users of IoT devices that often use multiple channels, leading to security vulnerabilities and data breaches.",
+      "view user specific access rights on the basis of a positive result in its authentication system",
   },
   {
     id: 3,
-    term: "penetration testing",
+    term: "algorithm",
     description:
-      "A form of security testing used to evaluate the security of a computer system or network by simulating an attack from a malicious source.",
+      "an ordered finite set o f clearly defined rules for solving a finite number o f steps",
   },
   {
     id: 4,
-    term: "VPN",
+    term: "antibot",
     description:
-      "A virtual private network that provides secure internet access by routing internet connection through a server that encrypts and protects user data.",
+      "robot-dasturlami, ayg‘oqchi dasturlarni (Spyware), ruxsatsiz o'rnatilgan reklama dasturiy ta’minotini (Adware) va boshqa zarar keltiruvchi dasturiy ta’minot turlarini avtomatik tarzdaaniqlovchi va yo ‘q qiluvchi dasturiy ta’minot",
   },
   { id: 5, term: "DNS spoofing", description: "A method of" },
   {
