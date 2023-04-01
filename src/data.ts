@@ -59,46 +59,46 @@ export const uz = [
       "abonentni (foydalanuvchini) uning biometrik xarakteristikasi (barmoq izlari, panja geometriyasi, yuzi, ovozi, ko‘z pardasining to'ri va h.) asosidagi autentifikatsiyalash usuli. Ushbu usulning afzalligi - biometrik xarakteristikalarni foydalanuvchidan ajratib bo‘lmasligi. Ularni esdan chiqarishning, yo'qotishnmg yoki boshqa foydalanuvchiga berishning iloji yo‘q",
   },
   {
-    id: 11,
-    term: "ransomware",
+    id: 10,
+    term: "ma'lumotlar bazasi",
     description:
-      "Fayllarni shifrlash yoki o'chirib tashlash va foydalanuvchidan pul so'ralish maqsadida qo'llaniladigan virus",
+      "tatbiqiy dasturlarga bog'liq bo‘lmagan holda ma’ lumotlami tavsiflashning saqlashmng va manipulyatsiyalashning umumiy prinsiplarini ko‘zda tutuvchi ma’lum qoidalar bo‘yicha tashkil etilgan ma’lumotlar majmui",
+  },
+  {
+    id: 11,
+    term: "axborot xavfsizligi",
+    description:
+      "axborot holati bo‘lib, unga binoan axborotga tasodifan yoki atayin ruxsatsiz ta’sir etishga yoki uningolinishiga yo‘l qo‘yilmaydi. Axborotni texnik vositalar yordamida ishlanishida uning maxfiylik (konfidensiallik), yaxlitlik va foydalanuvchanlik kabi xarakteristikalarining (xususiyatlarimng) saqlanishini ta’minlovchi axborotning himoyalanish sathi holati.",
   },
   {
     id: 12,
-    term: "vayrless-harakat",
+    term: "tarmoq xavfsizligi",
     description:
-      "Ko'plab kabellarga xaydalanuvchining ko'pincha iste'mol qilinadigan IoT qurilmalaridan kelib chiqqan foydalanuvchilar uchun maxfiylik xavfsizlik muammo.",
+      "axborot tarmoqni ruxsatsiz foydalanishdan, me’yoriy ishlashiga tasodifan yoki atayin aralashishdan yoki tarmoq komponentlarini buzishga urinishdan ehtiyot qiluvchi choralar. Asbob-uskunalami, dasturiy ta’minotni, ma’lumotlarni himoyalashni o‘z ichiga oladi",
   },
   {
     id: 13,
-    term: "penetratsiya sinovlari",
+    term: "bot",
     description:
-      "Tarmoq xavfsizligini tekshirish uchun tuzilgan sinovlar. Bu sinovlarning asosiy maqsadi tarmoqdagi xavfsizlik yomonliklarini aniqlash va bu yomonliklarni tuzatish uchun imkoniyat yaratishdir.",
+      "(“robot” so'zining qisqartirilgani) oddiy foydalanuvchi interfeysi orqali avtomatik tarzda va / yoki berilgan jadval bo‘yicha qandaydir harakatlarni bajaruvchi maxsus dastur. Kompyuter dasturlari muhokama qilinganida bot atamasi asosan Intemetga qo‘llash bilan ishlatiladi",
   },
   {
     id: 14,
-    term: "VPN",
+    term: "botnet",
     description:
-      "Virtual maxfiy tarmoq, tarmoqga internet orqali ulanish uchun yordam beradi, lekin foydalanuvchining ma'lumotlarini maxfiy ko'rib turadi va uni himoya qiladi.",
+      "ishga tushurilgan botlarga ega bir qancha sonli xostlardan tashkil topgan kompyuter tarmog‘i. Odatda, kompyuterlarga bo‘ladigan tarmoq hujumlarini — spamni tarqatish, foydalanuvchilam ing shaxsiy ma’lumotlarini o ‘g‘rilash, masofadagi tizimda parollarni saralash, xizmat qilishdan voz kechishga undash hujumlarini muvofiqlashtirish uchun ishlaiiladi. (inglizcha robot va network so‘zlaridan olingan.)",
   },
   {
     id: 15,
-    term: "DNS tuslari",
+    term: "firewall",
     description:
-      "Ko'plab DNS-serverlarni muvofiqlashtiradigan tarzda tuzilgan to'g'ridan-to'g'ri so'rovlarni yo'naltirish usuli.",
+      "apparat-dasturiy vositalar yordamida tarmoqdan foydalanishni markazlashtirish va uni nazoratlash y o ‘li bilan tajrmoqni boshqa tizimlardan hamda tarmoqlardan keladigan xavfsizlikka tahdidlardan himoyalash usuli. Bir necha komponentlardan (masalan, brandmauer dasturiy ta’minoti ishlaydigan marshrutizator yoki shlyuzdan) tashkil topgan himoya to‘sig‘i hisoblanadi",
   },
   {
     id: 16,
-    term: "DDoS hamyonchiligi",
+    term: "verifikatsiya",
     description:
-      "Tarmoq xizmatlari orqali ko'plab to'g'ridan-to'g'ri so'rovlar yuborilishi bilan tarmoq xizmatlari buzilishi",
-  },
-  {
-    id: 17,
-    term: "malware",
-    description:
-      "Maxsus maqsadlar uchun yaratilgan dasturiy ta'minotlarning bitta turi. Bu dasturiy ta'minotlar foydalanuvchining ruxsatidan tashqari tarqalgan holda ishga tushiriladi va kompyuterni xavfsizlik rivojini buzib qo'yadi.",
+      "hisoblash vositalari yoki ularnmg kompleksi spetsifikatsiyasining ikki sathini tegishli moslikka taqqoslash jarayoni. Dasturlashda - dastur to‘g‘riligining tasd‘i. Verifikatsiyaga ikkita yondashish farqlanadi: staiik va konstruktiv usullar",
   },
 ];
 
@@ -107,7 +107,7 @@ export const en = [
     id: 0,
     term: "authentification",
     description:
-      "A form of cyberattack that involves flooding a network or website with high volumes of traffic to disrupt normal operation.",
+      "checking user authentication (authentication), device or other component in the system, usually to make a decision about granting access to system resources; checking the integrity o f stored or transmitted data to detect unauthorized modification",
   },
   {
     id: 1,
@@ -125,51 +125,84 @@ export const en = [
     id: 3,
     term: "algorithm",
     description:
-      "an ordered finite set o f clearly defined rules for solving a finite number o f steps",
+      "an ordered finite set of clearly defined rules for solving a finite number of steps",
   },
   {
     id: 4,
     term: "antibot",
     description:
-      "robot-dasturlami, ayg‘oqchi dasturlarni (Spyware), ruxsatsiz o'rnatilgan reklama dasturiy ta’minotini (Adware) va boshqa zarar keltiruvchi dasturiy ta’minot turlarini avtomatik tarzdaaniqlovchi va yo ‘q qiluvchi dasturiy ta’minot",
+      "robot program, spyware, advertising software (Adware) installed without permission and other types of harmful software automatically detection and removal software",
   },
-  { id: 5, term: "DNS spoofing", description: "A method of" },
+  {
+    id: 5,
+    term: "antivirus",
+    description:
+      "a program that detects and detects and removes viruses. If the virus is not removed, it is possible, the infected program is destroyed, still - a program designed to protect against viruses, detection o f infected software modules and system areas, as well as the original, infected objects",
+  },
   {
     id: 6,
-    term: "authentication",
-    description: "Verification of user identification",
+    term: "attack",
+    description:
+      "breach of security of information system, which allows the invader to manage operating environment",
   },
   {
     id: 7,
-    term: "identification",
-    description: "Process of identifying a user",
+    term: "audit",
+    description:
+      "maintain security control by registering (fixation in the audit file) a predetermined set o f events that characterize the potentially dangerous actions in the computer affecting its security",
   },
   {
     id: 8,
-    term: "authorization",
-    description: "Granting permission by a user to perform any operation",
+    term: "authenticator",
+    description:
+      "authentication means representing the hallmark of the user. Means of user",
   },
-  { id: 9, term: "domain", description: "Name for network connection" },
+  {
+    id: 9,
+    term: "biometric authentication",
+    description:
+      "authentication Method subscriber (user), based on its verification o f biometrics (fingerprints, hand geometry, face, voice, retina pattern, etc.). The advantages o f this method is the inseparability o f the biometric characteristics o f the user: they can not be forgotten, lost or transferred to another user",
+  },
   {
     id: 10,
-    term: "encryption",
-    description: "Method of protecting information",
+    term: "database",
+    description:
+      "a set o f data organized according to certain rules, general principles providing descriptions, storing and manipulating data, regardless o f the application",
   },
   {
     id: 11,
-    term: "decryption",
+    term: "information security",
     description:
-      "Process of decoding encrypted information using other methods",
+      "state information, which prevents accidental or intentional tampering or unauthorized information to receive it, also - state -level data protection during processing technologies to support the preservation of its qualitative characteristics (properties) as privacy / confidentiality / integrity and availability",
   },
   {
     id: 12,
-    term: "firewall",
-    description: "Software used to protect networks",
+    term: "network security",
+    description:
+      "measures that protect the network information from unauthorized access, accidental or intentional interference with normal activities or attempts to destroy its components. Includes the protection o f hardware, software, data",
   },
   {
     id: 13,
-    term: "virus",
+    term: "bot",
     description:
-      "Malicious programs, files, or codes that can impact the functioning of",
+      "(Short for robot) Special program will be executed automatically and / or o n the schedule any action through the same interface as a normal user. In the discussion, the term computer program is used mainly in the application to the Internet",
+  },
+  {
+    id: 14,
+    term: "botnet",
+    description:
+      "computer network consisting of a number of hosts running bots. Usually used to coordinate attacks on network computers - spam, identity theft users o f brute force on the remote system attacks denial o f serv ice, etc (from the English, words robot and network).",
+  },
+  {
+    id: 15,
+    term: "firewall",
+    description:
+      "a method o f protecting the network from security threats from other systems and networks by centralizing network 300 access and control o f hardware and software. Also, is a protective barrier, consisting o f several components (such as a router or gateway that is running firewall software)",
+  },
+  {
+    id: 16,
+    term: "verification",
+    description:
+      "the process of comparing two levels of specification of computer equipment or systems for proper alignment. Also - programming proof of the correctness of programs. There are two approaches to verification: static and constructive methods",
   },
 ];

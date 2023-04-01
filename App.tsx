@@ -36,14 +36,14 @@ function App() {
                     display: "flex",
                     flexDirection: "row",
                     justifyContent: "space-between",
-                    width: 140,
+                    width: 160,
                   }}
                 >
                   <Picker
                     selectedValue={language}
                     onValueChange={(itemValue) => setLanguage(itemValue)}
                     style={{
-                      width: 90,
+                      width: 105,
                       color: isLight ? eColors.BLACK : eColors.WHITE,
                     }}
                     dropdownIconColor={isLight ? eColors.BLACK : eColors.WHITE}

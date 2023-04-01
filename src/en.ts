@@ -61,24 +61,26 @@ export const en = [
   },
   {
     id: 10,
-    term: "encryption",
-    description: "Method of protecting information",
+    term: "database",
+    description:
+      "a set o f data organized according to certain rules, general principles providing descriptions, storing and manipulating data, regardless o f the application",
   },
   {
     id: 11,
-    term: "decryption",
+    term: "information security",
     description:
-      "Process of decoding encrypted information using other methods",
+      "state information, which prevents accidental or intentional tampering or unauthorized information to receive it, also - state -level data protection during processing technologies to support the preservation of its qualitative characteristics (properties) as privacy / confidentiality / integrity and availability",
   },
   {
     id: 12,
-    term: "firewall",
-    description: "Software used to protect networks",
+    term: "network security",
+    description:
+      "measures that protect the network information from unauthorized access, accidental or intentional interference with normal activities or attempts to destroy its components. Includes the protection o f hardware, software, data",
   },
   {
     id: 13,
-    term: "virus",
+    term: "bot",
     description:
-      "Malicious programs, files, or codes that can impact the functioning of",
+      "(Short for robot) Special program will be executed automatically and / or o n the schedule any action through the same interface as a normal user. In the discussion, the term computer program is used mainly in the application to the Internet",
   },
 ];

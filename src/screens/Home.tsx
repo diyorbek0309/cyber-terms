@@ -52,8 +52,11 @@ const Home = ({ navigation }) => {
   };
 
   return (
-    <ScrollView
-      style={{ backgroundColor: isLight ? eColors.LIGHT : eColors.DARK }}
+    <View
+      style={{
+        backgroundColor: isLight ? eColors.LIGHT : eColors.DARK,
+        flex: 1,
+      }}
     >
       <TextInput
         placeholder="Qidirish"
@@ -68,7 +71,7 @@ const Home = ({ navigation }) => {
         onChangeText={(search) => searchInputHandler(search)}
         placeholderTextColor={isLight ? "#aaa" : eColors.LIGHT}
       />
-      <View>
+      <ScrollView>
         {termsList && termsList.length ? (
           termsList.map((item, index) => (
             <TouchableOpacity
@@ -101,8 +104,8 @@ const Home = ({ navigation }) => {
             {language === "uz" ? "Termin topilmadi!" : "Terms are not found!"}
           </Text>
         )}
-      </View>
-    </ScrollView>
+      </ScrollView>
+    </View>
   );
 };
 
