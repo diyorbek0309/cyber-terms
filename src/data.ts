@@ -100,6 +100,24 @@ export const uz = [
     description:
       "hisoblash vositalari yoki ularnmg kompleksi spetsifikatsiyasining ikki sathini tegishli moslikka taqqoslash jarayoni. Dasturlashda - dastur to‘g‘riligining tasd‘i. Verifikatsiyaga ikkita yondashish farqlanadi: staiik va konstruktiv usullar",
   },
+  {
+    id: 17,
+    term: "virus",
+    description:
+      "o‘zini boshqa dasturlar bajarilayotganida ularga kirituvchi unchalik katta bo‘lmagan dastur. Nusxalarini beixtiyor yaratish, shuningdek, keyinchalik yangi nusxasini boshqarish va qayta yaratishga erishish maqsadida fayllardagi va tizimli sohalardagi boshqa dasturlami modifikatsiyalash imkoniyatiga ega dastur",
+  },
+  {
+    id: 18,
+    term: "kalit generatori",
+    description:
+      "kalit (kriptotizim kaliti), kalit ketma-ketligi, initsializatsiya vektorlari va h. sifatida ishlatiluvchi son massivlari yoki boshqa ma’lumotlami ishlab chiqarishga m oijallangan texnik qurilma yoki dastur",
+  },
+  {
+    id: 19,
+    term: "kalit uzunligi",
+    description:
+      "kalitni ifodalovchi ma’lum alfavitdagi so'z uzunligi. Ikkili kalit uzunligi bitlarda o'lchanadi",
+  },
 ];
 
 export const en = [
@@ -205,6 +223,24 @@ export const en = [
     description:
       "the process of comparing two levels of specification of computer equipment or systems for proper alignment. Also - programming proof of the correctness of programs. There are two approaches to verification: static and constructive methods",
   },
+  {
+    id: 17,
+    term: "virus",
+    description:
+      "a small program that inserts itself into other programs when executed. Still - a program which can spontaneously create their copies and modifies other p rn ^ m q Qtnrwi in or system areas for subsequent management and reproduction of a new copy",
+  },
+  {
+    id: 18,
+    term: "key generator",
+    description:
+      "technical device or program designed to generate arrays of numbers or other data to be used as keys (cryptographic) key sequence, initialization vectors, and so on",
+  },
+  {
+    id: 19,
+    term: "key length",
+    description:
+      "word length in a certain alphabet, representing the key. The key length is measured in binary bits",
+  },
 ];
 
 export const ru = [
@@ -309,5 +345,23 @@ export const ru = [
     term: "верификация",
     description:
       "процесс сравнения двух уровней спецификации средств вычислительной техники или их комплексов на надлежащее соответствие. В программировании доказательство правильности программ. Различают два подхода к верификации: статические и конструктивные методы",
+  },
+  {
+    id: 17,
+    term: "вирус",
+    description:
+      "небольшая программа, которая вставляет саму себя в другие программы при выполнении. Программа, способная самопроизвольно создавать свои копии и модифицирующая другие программы, записанны е в файлах или системных обпяптстх пля последующ его получения управления и воспроизводства новой копии",
+  },
+  {
+    id: 18,
+    term: "генератор ключей",
+    description:
+      "техническое устройство или программа, предназначенные для выработки массивов чисел или других данных, используемых в качестве ключей (криптосистемы), последовательности ключевой, векторов инициализации и т. п.",
+  },
+  {
+    id: 19,
+    term: "длина ключа",
+    description:
+      "длина слова в определённом алфавите, представляющего ключ. Длина ключа бинарного измеряется в битах",
   },
 ];
