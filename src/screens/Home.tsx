@@ -7,19 +7,19 @@ import {
 } from "react-native";
 import { useState, useContext, useEffect } from "react";
 import { ThemeContext } from "../services/ThemeContext";
-import { uz, en } from "../data";
+import { uz, en, ru } from "../data";
 import { styles } from "../styles/HomeStyle";
 import { eColors } from "../types/enum";
 
 const Home = ({ navigation }) => {
   const { isLight, language } = useContext(ThemeContext);
-  const data = language === "uz" ? uz : en;
+  const data = language === "uz" ? uz : language === "en" ? en : ru;
   const [search, setSearch] = useState("");
   const { searchInput, termButton, termText, noTermText } = styles;
   const [termsList, setTermsList] = useState(uz);
 
   useEffect(() => {
-    const languageResources = { uz, en };
+    const languageResources = { uz, en, ru };
     setTermsList(languageResources[language]);
   }, [language]);
 
@@ -59,7 +59,13 @@ const Home = ({ navigation }) => {
       }}
     >
       <TextInput
-        placeholder="Qidirish"
+        placeholder={
+          language === "uz"
+            ? "Qidirish"
+            : language === "en"
+            ? "Search"
+            : "Поиск"
+        }
         style={[
           {
             backgroundColor: isLight ? "#fff" : eColors.DARK,

@@ -2,7 +2,7 @@ import { View, ScrollView, Text } from "react-native";
 import { useContext } from "react";
 import { ThemeContext } from "../services/ThemeContext";
 import { styles } from "../styles/HomeStyle";
-import { uz, en } from "../data";
+import { uz, en, ru } from "../data";
 import { eColors } from "../types/enum";
 
 const CTermItem = ({ route }) => {
@@ -10,7 +10,7 @@ const CTermItem = ({ route }) => {
   const { termTitle, termText } = styles;
   const { isLight, language } = useContext(ThemeContext);
 
-  const data = language === "uz" ? uz : en;
+  const data = language === "uz" ? uz : language === "en" ? en : ru;
 
   return (
     <ScrollView

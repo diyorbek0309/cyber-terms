@@ -16,6 +16,7 @@ function App() {
   const languages = [
     { label: "UZ", value: "uz" },
     { label: "EN", value: "en" },
+    { label: "RU", value: "ru" },
   ];
 
   return (
@@ -70,12 +71,26 @@ function App() {
             <Screen
               name="Bosh sahifa"
               component={HomeScreen}
-              options={{ title: language === "uz" ? "Bosh sahifa" : "Home" }}
+              options={{
+                title:
+                  language === "uz"
+                    ? "Bosh sahifa"
+                    : language === "en"
+                    ? "Home"
+                    : "Главная",
+              }}
             />
             <Screen
               name="Termin"
               component={CTermItem}
-              options={{ title: language === "uz" ? "Termin" : "Term" }}
+              options={{
+                title:
+                  language === "uz"
+                    ? "Atama"
+                    : language === "en"
+                    ? "Term"
+                    : "Термин",
+              }}
             />
           </Group>
         </Navigator>
