@@ -118,6 +118,11 @@ export const uz = [
     description:
       "kalitni ifodalovchi ma’lum alfavitdagi so'z uzunligi. Ikkili kalit uzunligi bitlarda o'lchanadi",
   },
+  {
+    id: 20,
+    term: "ishonchlilik",
+    description: "xavfsizlikning qandaydir mezonlarga moslik xususiyati",
+  },
 ];
 
 export const en = [
@@ -241,6 +246,11 @@ export const en = [
     description:
       "word length in a certain alphabet, representing the key. The key length is measured in binary bits",
   },
+  {
+    id: 20,
+    term: "trusted funcionality",
+    description: "property according security with some critiries",
+  },
 ];
 
 export const ru = [
@@ -363,5 +373,10 @@ export const ru = [
     term: "длина ключа",
     description:
       "длина слова в определённом алфавите, представляющего ключ. Длина ключа бинарного измеряется в битах",
+  },
+  {
+    id: 20,
+    term: "доверительность",
+    description: "свойство соответствия безопасности некоторым критериям",
   },
 ];
