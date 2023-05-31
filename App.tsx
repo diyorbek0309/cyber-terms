@@ -4,7 +4,9 @@ import { useState } from "react";
 import { Picker } from "@react-native-picker/picker";
 import { TouchableOpacity, Image, View } from "react-native";
 import CTermItem from "./src/components/CTermItem";
+import TermsScreen from "./src/screens/Terms";
 import HomeScreen from "./src/screens/Home";
+import AboutScreen from "./src/screens/About";
 import { eColors, eImages } from "./src/types/enum";
 import { ThemeContext } from "./src/services/ThemeContext";
 
@@ -81,12 +83,36 @@ function App() {
               }}
             />
             <Screen
+              name="Terminlar"
+              component={TermsScreen}
+              options={{
+                title:
+                  language === "uz"
+                    ? "Terminlar"
+                    : language === "en"
+                    ? "Terms"
+                    : "Термины",
+              }}
+            />
+            <Screen
+              name="Dastur haqida"
+              component={AboutScreen}
+              options={{
+                title:
+                  language === "uz"
+                    ? "Dastur haqida"
+                    : language === "en"
+                    ? "About app"
+                    : "О программе",
+              }}
+            />
+            <Screen
               name="Termin"
               component={CTermItem}
               options={{
                 title:
                   language === "uz"
-                    ? "Atama"
+                    ? "Termin"
                     : language === "en"
                     ? "Term"
                     : "Термин",

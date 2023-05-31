@@ -32,4 +32,29 @@ export const styles = StyleSheet.create({
     fontSize: 20,
     marginTop: 10,
   },
+  homeBtn: {
+    paddingVertical: 8,
+    paddingHorizontal: 20,
+    borderRadius: 8,
+    marginVertical: 8,
+  },
+  homeBtns: {
+    marginTop: 200,
+    display: "flex",
+    alignItems: "center",
+  },
+  homeBtnText: {
+    fontSize: 24,
+  },
+  homeTitle: {
+    fontSize: 60,
+    fontStyle: "italic",
+    textAlign: "center",
+    marginTop: 100,
+  },
+  aboutTitle: {
+    fontSize: 24,
+    textAlign: "center",
+    marginVertical: 10,
+  },
 });
