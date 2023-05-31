@@ -1,4 +1,4 @@
-import { Text, TouchableOpacity, View } from "react-native";
+import { Text, TouchableOpacity, View, Linking, Pressable } from "react-native";
 import { useContext } from "react";
 import { ThemeContext } from "../services/ThemeContext";
 import { styles } from "../styles/HomeStyle";
@@ -6,6 +6,13 @@ import { eColors } from "../types/enum";
 
 const Home = ({ navigation }) => {
   const { isLight, language } = useContext(ThemeContext);
+  const { author, created, darkBG, lightText } =
+    styles;
+
+  const openLink = async () => {
+    const url: string = "https://t.me/dasturchining_tundaligi";
+    await Linking.openURL(url);
+  };
 
   return (
     <View
@@ -64,6 +71,10 @@ const Home = ({ navigation }) => {
           </Text>
         </TouchableOpacity>
       </View>
+      <Text style={[created, !isLight && lightText]}>Created by </Text>
+      <Pressable onPress={openLink}>
+        <Text style={[author, !isLight && lightText]}>Diyorbek Olimov</Text>
+      </Pressable>
     </View>
   );
 };
