@@ -57,4 +57,20 @@ export const styles = StyleSheet.create({
     textAlign: "center",
     marginVertical: 10,
   },
+  darkBG: {
+    backgroundColor: "#12355b",
+  },
+  lightText: {
+    color: "#fff",
+  },
+  created: {
+    textAlign: "right",
+    color: "#00f",
+  },
+  author: {
+    textAlign: "right",
+    fontStyle: "italic",
+    textDecorationLine: "underline",
+    color: "#00f",
+  },
 });
