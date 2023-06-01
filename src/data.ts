@@ -123,6 +123,125 @@ export const uz = [
     term: "ishonchlilik",
     description: "xavfsizlikning qandaydir mezonlarga moslik xususiyati",
   },
+  {
+    id: 21,
+    term: "foydalanish",
+    description:
+      "ma’lumotlarni ishlash tizimiga ma’lumotlarni taqdim etish yoki undan qidirish. o'qish va/yoki yozish amallarini bajarish yo‘li bilan ma’lumotlarni olish.",
+  },
+  {
+    id: 22,
+    term: "foydaluvchanlik",
+    description:
+      "avtorizatsiyalangan mantiqiy obyekt so‘rovi bo‘yicha mantiqiy obyektning tayyorlik va foydalanuvchanlik holatida bo‘lish xususiyati.",
+  },
+  {
+    id: 23,
+    term: "yashovchanlik",
+    description:
+      "tizimning tashqi ta'sirlar sharoitida ishga layoqatli qolishi xususiyati",
+  },
+  {
+    id: 24,
+    term: "ishontirish",
+    description:
+      "mazmuni, ma’lumotlar manbai, yetkazish vaqti kabi xarakteristikalaming to‘g‘riligiga bundan buyon ishonish uchun m a’lumotlarni ishonchli uchinchi shaxsda qaydlash.",
+  },
+  {
+    id: 25,
+    term: "zaharlash",
+    description:
+      "hisoblash texnikasida vivusning dastur, tizimli zona yoki tizimli jadvallaming o ‘zgarishi bilan bog‘liq o ‘zining nusxasini yaratish jarayoni.",
+  },
+  {
+    id: 26,
+    term: "himoyalash ",
+    description:
+      "hisoblash tizimidan yoki uning qismidan foydalanishni cheklash vositasi; apparaturadan, dasturdan va ma’lumotlardan ruxsatsiz foydalanishni bartaraf etuvchi tashkiliy va texnik, jumladan, dasturiy choralar.",
+  },
+  {
+    id: 27,
+    term: "identiflkator",
+    description:
+      "subyekt yoki obyektning farqlanuvchi alomatidan iborat foydalanishning identifikatsiya vositasi. Foydalanuvchilar uchun asosiy identifikatsiya vositasi parol hisoblanadi",
+  },
+  {
+    id: 28,
+    term: "imitatsiya",
+    description:
+      "qabul qilinishida rad etilmaydigan, dushman va/yoki buzg'unchi tomonidan taraflaming biri xabarini taraflarning ikkinchisi nomidan majburan qabul qildirish maqsadida kriptografik protokolga faol hujum.",
+  },
+  {
+    id: 29,
+    term: "imitovstavka",
+    description:
+      "imitohimoyarii ta’minlash maqsadida ochiq ma’lumotlardan va kalitdan ma’lum qoida bo'yicha olingan va shifrlangan ma’lumotlarga qo‘shilgan axborotning belgilangan uzunlikdagi bo‘lagi.",
+  },
+  {
+    id: 30,
+    term: "imitobardoshlik",
+    description:
+      "maqsadi yolg‘on xabami majburan kiritish, uzatiluvchi xabami almashtirish yoki saqlanuvchi ma’lumotlarni o ‘zgartirish bo‘lgan dushman yoki/va buzg1 unchi tomonidan qilinadigan faol hujumlarga qarshi tura olish qobiliyati orqali xarakterlanuvchi kriptografik tizim (kriptografik protokol) xususiyati",
+  },
+  {
+    id: 31,
+    term: "insayder",
+    description:
+      "guruhga tegishli yashirin axborotdan foydalanish huauqiga ega guruh a'zosi Odatda, axborot sirqib chiqish bilan bog'liq mojaroda muhim shaxs hisoblanadi. Shu nuqtayi nazardan insayderlaming quyidagi xillari farqlanadi: beparvolar, manipulyatsiyalanuvchilar, ranjiganlar, qo'shinicha pul ishlovchilar va h",
+  },
+  {
+    id: 32,
+    term: "mojaro",
+    description:
+      "ruxsatsiz foydalanish huquqiga ega bo‘lishga yoki kompyuter tizimiga hujum o‘tkazishga urinishning qayd etilgan holi",
+  },
+  {
+    id: 33,
+    term: "buzilish",
+    description:
+      "ma’lumotlar signali parametrlari qiymatlarining o‘rnatilgan talablardan chetlanishi. Aloqa liniyasi bo‘yicha uzatiluvchi xabar tarkibining o'zgarishi",
+  },
+  {
+    id: 34,
+    term: "kiberjinoyatili",
+    description:
+      "g‘arazli yoki xuliganlik maqsadlarda himoyalashning kompyuter tizim larini buzib ochishga, axborotni o‘g‘rilashga yoki buzishga y o ‘naltirilgan alohida shaxs yoki guruh harakatlari.",
+  },
+  {
+    id: 35,
+    term: "kiberterrorizm",
+    description:
+      "insonlar halokati, aytarlicha moddiy zarar xavfini va boshqa jam iyatga xavfli oqibatlami tug‘diruvchi kompyuter tizimlarini chalg‘itish bo‘yicha harakatlar",
+  },
+  {
+    id: 36,
+    term: "kod",
+    description:
+      "1. Simvoln ikkilik kod orqali ifodalash. 2. Matnni kodlangan shaklga o‘zgartirishda ixtiyoriy jadvaldan yoki kodlash  kitobidan foydalanuvchi kripto grafik usul.",
+  },
+  {
+    id: 37,
+    term: "obro‘sizlantirish",
+    description:
+      "jid d iy a xb o ro tn i y o ‘ q otish y o k i uni  a vtorizatsiyalanm a gan su b ye ktla r (shaxslar, dasturlar, ja ra y o n la r va  h .) to m o n id a n o ‘ z la s h tirilis h i",
+  },
+  {
+    id: 38,
+    term: "litsenziya",
+    description: "sotish yoki xizmat ko‘rsatish huquqiga ruxsatnoma.",
+  },
+  {
+    id: 39,
+    term: "makroviruslar",
+    description:
+      "qandaydir ma’lumotlarni ishlash tizimiga (matn redaktoriga, elektron jadvallarga va h .) o‘rnatilgan tillardagi (makro tillardagi) dasturlar.",
+  },
+  {
+    id: 40,
+    term: "mandat",
+    description:
+      "obyektdan foydalanish va uning ustida ruxsat e tilgan amallarni bajarish yo‘lini aniqlovchi ko‘rsatkich turi",
+  },
 ];
 
 export const en = [
@@ -251,6 +370,125 @@ export const en = [
     term: "trusted funcionality",
     description: "property according security with some critiries",
   },
+  {
+    id: 21,
+    term: "access",
+    description:
+      "providing data processing system or getting them out of it by doing a search, read and (or) data record.",
+  },
+  {
+    id: 22,
+    term: "availability",
+    description:
+      "property of an object in a state of readiness and usage upon request authorized entity.",
+  },
+  {
+    id: 23,
+    term: "viability",
+    description:
+      "property of the system to remain operational under external influences",
+  },
+  {
+    id: 24,
+    term: "notalization",
+    description:
+      "registration data from a trusted third party for further confidence in the correctness o f such properties as the source of data, the time of delivery",
+  },
+  {
+    id: 25,
+    term: "infection",
+    description:
+      "in computing the process of creating copies of its virus associated with changes in program codes, system areas or system tables",
+  },
+  {
+    id: 26,
+    term: "protection, security, lock out ",
+    description:
+      "means for restriction o f access or use of all or part of the computing system; legal, organizational and technical, including program, measures of prevention of unauthorized access to the equipment, programs and data",
+  },
+  {
+    id: 27,
+    term: "identifier",
+    description:
+      "means of identification of the access, representing a distinctive sign of the subject or object of access. The main means of identification of access for users is the password.",
+  },
+  {
+    id: 28,
+    term: "imitation",
+    description:
+      "attack active on the protocol cryptographic which purpose is imposing by the opponent and/or the violator of one of the message parties on behalf of other party which won't be rejected at reception.",
+  },
+  {
+    id: 29,
+    term: "massage authentication code",
+    description:
+      "piece o f information of the added to the ciphered data for providing imitation protection.",
+  },
+  {
+    id: 30,
+    term: "imitation resistance",
+    description:
+      " property of system cryptographic (the protocol cryptographic), characterizing ability to resist to attacks active from the opponent and/or the violator which purpose is imposing of the untrue report, substitution of the transferred message or change of stored data",
+  },
+  {
+    id: 31,
+    term: "insider",
+    description:
+      "the member o f group o f the people having access to the classified information, belonging this group. As a rule, is the key character in the incident, connected with information leakage. From this point of view distinguish the following types of insiders: negligent, manipulated, offended, disloyal, earning additionally, introduced, etc.",
+  },
+  {
+    id: 32,
+    term: "incident",
+    description:
+      "the recorded case of attempt of receiving unauthorized access or carrying out attack to computer system.",
+  },
+  {
+    id: 33,
+    term: "distortion",
+    description:
+      "deviation of values of parameters of a signal of data from the established requirements. Still - change of contents of the message transferred on the communication lines.",
+  },
+  {
+    id: 34,
+    term: "cyber cryme",
+    description:
+      "actions of individuals or the groups, directed on breaking of system s of computer protection, on plunder or information destruction in the mercenary or hooligan purposes",
+  },
+  {
+    id: 35,
+    term: "cyber terrorism",
+    description:
+      "actions on disorganization of the computer systems creating danger of death of people, significant property damage or other socially dangerous consequences",
+  },
+  {
+    id: 36,
+    term: "code",
+    description:
+      "1. S ym b ol representation b y a b in a ry code. 2. C ry p to g ­rap hic reception in w h ic h any ta ble o r the quoted b o o k fo r tra n sfo rm a tio n o f th e te x t to the coded fo rm is used.",
+  },
+  {
+    id: 37,
+    term: "compromising",
+    description:
+      "loss of critical information or receiv in git the  subjects not authorized for this purpose (persons, program s,  processes, etc.)",
+  },
+  {
+    id: 38,
+    term: "license",
+    description: "permission to the right of sale or service.",
+  },
+  {
+    id: 39,
+    term: "macro viruses",
+    description:
+      " program s in the languages (m acrolanguages) which have been built in some systems of data processing (text editors, spreadsheets and soon)",
+  },
+  {
+    id: 40,
+    term: "mandate",
+    description:
+      "kind of the index defining away of access to object and operations allowed over it.",
+  },
 ];
 
 export const ru = [
@@ -378,5 +616,124 @@ export const ru = [
     id: 20,
     term: "доверительность",
     description: "свойство соответствия безопасности некоторым критериям",
+  },
+  {
+    id: 21,
+    term: "доступ",
+    description:
+      "предоставление данных системе обработки данных или получение их из нее путем выполнения операций поиска, чтения и (или) записи данных",
+  },
+  {
+    id: 22,
+    term: "доступность",
+    description:
+      "свойство логического объекта находиться в состоянии готовности и используемости по запросу авторизованного логического объекта",
+  },
+  {
+    id: 23,
+    term: "живучесть",
+    description:
+      "свойство системы оставаться работоспособной в условиях внешних воздействий.",
+  },
+  {
+    id: 24,
+    term: "заверение",
+    description:
+      "регистрация данных у доверенного третьего лица для дальнейшей уверенности в правильности таких характеристик, как содержание, источник данных, время доставки.",
+  },
+  {
+    id: 25,
+    term: "заражение",
+    description:
+      "процесс создания в вычислительной технике вирусом своей копии, связанный с изменением кодов программ, системных областей или системных таблиц",
+  },
+  {
+    id: 26,
+    term: "защита",
+    description:
+      "средство для ограничения доступа или использования всей или части вычислительной системы; юридические, организационные и технические, в том числе программные меры предотвращения несанкционированного доступа к аппаратуре, программам и данным",
+  },
+  {
+    id: 27,
+    term: "идентификатор",
+    description:
+      "средство идентификации доступа, представляющее собой отличительный признак субъекта или объекта доступа. Основным средством идентификации доступа для пользователей является пароль.",
+  },
+  {
+    id: 28,
+    term: "имитация",
+    description:
+      "активная атака на криптографический протокол, целью которой является навязывание противником и/или нарушителем одной из сторон сообщения от имени другой стороны, которое не будет отвергнуто при приеме",
+  },
+  {
+    id: 29,
+    term: "имитовставка",
+    description:
+      "отрезок информации фиксированной длины, полученный по определенному правилу из открытых данных и ключа, добавленный к зашифрованным данным для обеспечения имитозащиты.",
+  },
+  {
+    id: 30,
+    term: "имитостойкость",
+    description:
+      "свойство криптографической системы (криптографического протокола), характеризующее способность противостоять активным атакам со стороны противника и/или нарушителя, целью которых является навязывание ложного сообщения, подмена передаваемого сообщения или изменение хранимых данных.",
+  },
+  {
+    id: 31,
+    term: "инсайдер",
+    description:
+      "член группы людей, имеющий доступ к закрытой информации, принадлежащей этой группе. Как правило, является ключевым персонажем в инциденте, связанным с утечкой информации. С этой точки зрения различают следующие типы инсайдеров: халатные, манипулируемые, обиженные, нелояльные, подрабатывающие, внедренные и т.п",
+  },
+  {
+    id: 32,
+    term: "инцидент",
+    description:
+      "зафиксированный случай попытки получения несанкционированного доступа или проведения атаки на компьютерную систему.",
+  },
+  {
+    id: 33,
+    term: "искажение",
+    description:
+      "отклонение значений параметров сигнала данных от установленных требований. Изменение содержимого сообщения, передаваемого по линии связи",
+  },
+  {
+    id: 34,
+    term: "киберпреступность",
+    description:
+      "действия отдельных лиц или групп, направленные на взлом систем компьютерной защиты, на хищение или разрушение информации в корыстных или хулиганских целях",
+  },
+  {
+    id: 35,
+    term: "кибертерроризм",
+    description:
+      "действия no дезорганизации компьютерных систем, создаю щ ие опасность гибели людей, значительного имущественного ущерба либо иных общественно опасных последствий",
+  },
+  {
+    id: 36,
+    term: "код",
+    description:
+      "1. Представление символа двоичным кодом. 2. Криптографический прием, в котором используется произвольная таблица или кодировочн ая к н и га для преобразования  текста в за код и р ов ан ную форму.",
+  },
+  {
+    id: 37,
+    term: "компрометация",
+    description:
+      "утеря значительной инф орм ации либ о  п о л уч ен и е ее неа вторизованны м и для этого субъ ектам и (л и ц а ­ м и, програм м ам и, процессам и и т.д.)",
+  },
+  {
+    id: 38,
+    term: "лицензия",
+    description: "разрешение на право продажи или предоставления услуг.",
+  },
+  {
+    id: 39,
+    term: "макровирусы",
+    description:
+      "програм м ы на язы ках (м акроязы ках), встр о е н н ы х в неко то р ы е систем ы обраб отки д а нн ы х (текстовы е редакторы , эл е ктр о нн ы е таблицы и так далее)",
+  },
+  {
+    id: 40,
+    term: "мандат",
+    description:
+      "разновид ность указателя, определяющий путь доступа к объекту и разрешенные над ним операции.",
   },
 ];
