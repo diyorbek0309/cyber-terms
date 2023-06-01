@@ -4,6 +4,7 @@ import {
   ScrollView,
   View,
   TextInput,
+  StatusBar,
 } from "react-native";
 import { useState, useContext, useEffect } from "react";
 import { ThemeContext } from "../services/ThemeContext";
@@ -58,6 +59,7 @@ const Terms = ({ navigation }) => {
         flex: 1,
       }}
     >
+      <StatusBar />
       <TextInput
         placeholder={
           language === "uz"

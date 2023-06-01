@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Text, View, StatusBar } from "react-native";
 import { useContext } from "react";
 import { ThemeContext } from "../services/ThemeContext";
 import { styles } from "../styles/HomeStyle";
@@ -14,6 +14,7 @@ const About = () => {
         flex: 1,
       }}
     >
+      <StatusBar />
       <Text
         style={{
           ...styles.aboutTitle,

@@ -61,16 +61,20 @@ export const styles = StyleSheet.create({
     backgroundColor: "#12355b",
   },
   lightText: {
-    color: "#fff",
+    color: "#baf5f5",
   },
   created: {
     textAlign: "right",
-    color: "#00f",
+    color: "#022a54",
   },
   author: {
     textAlign: "right",
     fontStyle: "italic",
     textDecorationLine: "underline",
-    color: "#00f",
+    color: "#022a54",
+  },
+  authorWrap: {
+    marginTop: 100,
+    marginRight: 20,
   },
 });
