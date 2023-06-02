@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Text, View, StatusBar } from "react-native";
 import { useContext } from "react";
 import { ThemeContext } from "../services/ThemeContext";
 import { styles } from "../styles/HomeStyle";
@@ -14,6 +14,7 @@ const About = () => {
         flex: 1,
       }}
     >
+      <StatusBar />
       <Text
         style={{
           ...styles.aboutTitle,
@@ -25,6 +26,18 @@ const About = () => {
           : language === "en"
           ? "About app"
           : "О программе"}
+      </Text>
+      <Text
+        style={{
+          ...styles.aboutTitle,
+          color: isLight ? eColors.BLACK : eColors.WHITE,
+        }}
+      >
+        {language === "uz"
+          ? "Axborot xavfsizligi sohasidagi terminlar va ularning tavsiflari berilgan mobil ilova"
+          : language === "en"
+          ? "A mobile application with information security terms and their descriptions"
+          : "Мобильное приложение с терминами защиты информации и их описанием"}
       </Text>
     </View>
   );
