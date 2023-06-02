@@ -242,6 +242,136 @@ export const uz = [
     description:
       "obyektdan foydalanish va uning ustida ruxsat e tilgan amallarni bajarish yo‘lini aniqlovchi ko‘rsatkich turi",
   },
+  {
+    id: 41,
+    term: "maskarad",
+    description:
+      "te g is h li h a ra k a tla m i am alga o shirishga v a k o la tla ri b o 'lm a g a n su be ktnin g o ‘ z in i boshqa v a k o la tli shaxs deb k o ‘ rsatib, u shaxs n om id a n h araka tlam ing im k o n iy a tla rig a va im tiy o z la rig a ega b o ‘ lish g a u rin is h i.",
+  },
+  {
+    id: 42,
+    term: "kuzatuvchanlik",
+    description:
+      "a x b o ro t h im o ya sig a ja v o b g a r shaxslar uchun a xbo ro t tiz im i x a v fs iz lig in i buzish ja ra y o n in i y o k i buzishga u rin is h la rn i tikla sh im k o n iy a ti.",
+  },
+  {
+    id: 43,
+    term: "ishonchlilik",
+    description:
+      "m a ’ lu m sharoitlarda b erilg an va qt o ra lig ‘ ida fu n k s io n a l u zelnin g, q u rilm a n in g , tiz im n in g o ‘ ziga to p s h irilg a n v a z ifa la m i bajarish q o b iliy a tin in g xarakteristikasi",
+  },
+  {
+    id: 44,
+    term: "hujumchi",
+    description:
+      "h arakati k o ‘ rila y o tg a n ko m p yute r tiz im id a a xb o ­ro t x a v fs iz lig in i buzadigan subyekt.",
+  },
+  {
+    id: 45,
+    term: "buzg‘unchi",
+    description:
+      "h araka tlari k o ‘ rila y o tg a n k o m p y u te r tiz im id a a x b o ro t x a v fs iz lig in i buzadigan subyekt.",
+  },
+  {
+    id: 46,
+    term: "parol",
+    description:
+      "tiz im d a n , dasturdan y o k i m a’ lu m o tla rd a n fo y d a lanishga ruxsa t o lish uchun k o m p y u te r so‘ ro v i b o ‘ yich a k iritila d ig a n s im v o lla rn in g n o yo b k e tm a -k e tlig i",
+  },
+  {
+    id: 47,
+    term: "hisobdorlik",
+    description:
+      "te ksh irish im k o n iy a ti. Ik k ita jih a tg a ega: b irin - chidan, tiz im n in g har qanday h o la tim , ushbu holatga qay tarzda tu sh ib q o lg a n in i aniqlash uchun d astla bki h olatig a q ayta rish ; ik k in c h id a n , x a v fs iz lik a u d itin i o ‘tk a z is h n in g m a v ju d ta rtib i tiz im n in g barcha b ild irilg a n ta la b la m i q o n iq tiris h in i k a fo la tla sh g a im k o n beradi.",
+  },
+  {
+    id: 48,
+    term: "vakolatlar",
+    description:
+      "h im o y a la n g a n m a ’ lu m o tla r ustida u y o k i bu m uo la ja n i b a ja ris h i b o ‘ y ic h a fo y d a la n u v c h in in g (te rm in a ln in g , dasturning, tiz im n in g ) h u q u q i.",
+  },
+  {
+    id: 49,
+    term: "protokol",
+    description:
+      "q u rilm a la r, dasturlar, m a 'lu m o tla iia m i ishlash tiz im la ri, ja ra y o n la r y o k i fo y d a la n u v c h ila rn in g o 'z a ro harakati algor it m in i b e lg ilo v c h i q o id a la r m ajrnui.",
+  },
+  {
+    id: 50,
+    term: "rezident",
+    description: "asosiy x o tira d a d o im o m avjud.",
+  },
+  {
+    id: 51,
+    term: "skrembler",
+    description:
+      "ra q a m li kanalda is h la tilu v c h i, b itla m in g ke tm a - k e tlig in i s h a k lla n tiru v c h i k o d lo v c h i q u rilm a ",
+  },
+  {
+    id: 52,
+    term: "sniffing",
+    description: `tarm oq h u ju m i tu ri, "ta rm o q n i ya sh irin ch a e shitish" deb ham ataladi`,
+  },
+  {
+    id: 53,
+    term: "spamming",
+    description:
+      "U N IN E T n in g tu rli g u ru h la rig a katta so n li b ir x il x a b a rla m i j о 1 natish",
+  },
+  {
+    id: 54,
+    term: "steganografiya",
+    description:
+      "o c h iq axborot m assivlarida k o n fid e n s ia l a xb o ro tn i ya sh irish n in g m ate m atik u s u lla rin i o ‘rga n u vchi fa n sohasi.",
+  },
+  {
+    id: 55,
+    term: "tahdid",
+    description:
+      "a xbo ro t x a v fs iz lig in i b u zu vch i potensial y o k i real m a v ju d x a v fn i tu g ‘ d iru v c h i s h a ro itla r va o m illa r m a jm u i.",
+  },
+  {
+    id: 56,
+    term: "soxtalashtirish",
+    description:
+      "boshqa tiz im IP -adresidan fo y d a la n ib , unga o ‘ xshab n iq o b la n ish yo rd a m id a IP -a dreslar asosida fo y d a la n is h n i boshqarish tiz im in i chetlab o ‘tis h uchun tu rli te x n o lo g iy a la rd a n fo yd a la n ish ",
+  },
+  {
+    id: 57,
+    term: "fishing",
+    description:
+      "fo yda lan ish p a ro li, b an k va id e n tifik a ts iy a k a rta la ri * m a ’ lu m o tla ri va h. kabi shaxsiy ko n fid e n sia l m a’ lu m o tla m i o ‘ g ‘ - rila shd a n ib o ra t in te m e t-firib g a rlik te xno lo g iya si.",
+  },
+  {
+    id: 58,
+    term: "frod",
+    description:
+      "aldash, firib g a rlik , g ‘ irro m !ik , q a lb a k ilik . In te rn e tfirib g a rlik tu ri b o 'lib , firib g a r tu rli usullar yo rd a m id a p u lrrin g y o k i q n d a yd ir serverga te g is h li x iz m a t qism iga n o q o n u n iy ega b o ‘ ladi.",
+  },
+  {
+    id: 59,
+    term: "xaker",
+    description:
+      "tiz im li d astu riy ta ’ m in otga k o ‘ p in cha n oq on un iy o ‘ z g a rtiris h la r k iritis h g a u rin u v c h i fo yd a la n u vch i. O datda yom on h u jjatla ng an va ba ’ zida n o jo iz q o ‘ shim cha n a tija la r tu g ‘ d iru v c h i o z m i-k o ‘ pm i fo y d a li y o rd a m c h i dasturlar ya ra tu vch i dasturchini x a ke r deb atash m u m kin .",
+  },
+  {
+    id: 60,
+    term: "qurt",
+    description:
+      "ko‘pincha yomon niyatda tizimga kiritiladigan va axborotning ishlash jarayonini to‘xtatuvchi dastur. Viruslardan farqlangan holda, qurt odatda, ma’lumotlar faylini va dasturni Ьилпауdi. Qurt yashirincha bajariladi va o‘z-o‘zini yo‘qotadi.",
+  },
+  {
+    id: 61,
+    term: "eksployt",
+    description:
+      "kompyuter tizimiga hujum uyushtirish uchun qo‘llaniladigan va dasturiy ta’minot zaifliklaridaii foydalanuvchi kompyuter dasturi, dasturiy kod fragmenti yoki buyruqlar ketma-ketligi",
+  },
+  {
+    id: 62,
+    term: "samaradorlik",
+    description:
+      "berilgan miqdoriy xarakteristikalari bilan xizmat ko‘rsatishga bo'lgan talablami qondiruvchi obyektning xususiyati",
+  },
 ];
 
 export const en = [
@@ -489,6 +619,136 @@ export const en = [
     description:
       "kind of the index defining away of access to object and operations allowed over it.",
   },
+  {
+    id: 41,
+    term: "masquerade",
+    description:
+      "a tte m p t to get access to system , object or p e rfo rm a n ce o f other actions b y th e subject w h ic h isn 't possessing pow ers on th e corresponding a ctio n and g iv in g o u t fo r another to w h ic h these actions are a llo w e d.",
+  },
+  {
+    id: 42,
+    term: "observability",
+    description:
+      " an o p p o rtu n ity fo r those responsible fo r data p ro te c tio n o ffic ia ls to restore the course o f v io la tio n s o r attem pted v io la tio n s o f in fo rm a tio n system security.",
+  },
+  {
+    id: 43,
+    term: "reliability",
+    description:
+      "the a b ility o f the fu n c tio n a l characteristics o f node devices, the system under certain circum stances to carry out th e d esire d fu n c tio n d u rin g a certain p e rio d o f tim e.",
+  },
+  {
+    id: 44,
+    term: "attacker",
+    description:
+      "a su bject w hose actions viola te the in fo rm a tio n sec u rity in a under co nside ratio n com pute r system.",
+  },
+  {
+    id: 45,
+    term: "attacker",
+    description:
+      "a su bject w hose actions viola te the in fo rm a tio n sec u rity in a under co nside ratio n com pute r system.",
+  },
+  {
+    id: 46,
+    term: "password",
+    description:
+      "a passw ord is an unspaced sequence o f characters used to d eterm ine th a t a co m p u te r user requesting access to a co m p u te r system is re a lly th at p a rtic u la r user.",
+  },
+  {
+    id: 47,
+    term: "auditability",
+    description:
+      "a b ility to test; has tw o aspects: firs tly , any state o f the system can be reset to determ ine h o w th e system w as in it; Second, th e e xistin g procedures fo r a u d itin g the se curity h elps ensure th a t y o u r system meets a ll the stated requirem ents.",
+  },
+  {
+    id: 48,
+    term: "privileges",
+    description:
+      "the r ig h t o f th e user (te rm in a l program , system ) to im plem ent c e rta in p ro ce d u re s o v e r th e protected data.",
+  },
+  {
+    id: 49,
+    term: "protocol",
+    description:
+      "a set o f rules th a t d e fin e the a lg o rith m o f interaction d e vice s, so ftw a re , data processing systems, processes or users.",
+  },
+  {
+    id: 50,
+    term: "resident",
+    description: "co n sta n tly present in m em ory.",
+  },
+  {
+    id: 51,
+    term: "scrambler",
+    description:
+      "e n c o d e r used in th e d ig ita l channel, w h ic h provides я random sequence o f hits.",
+  },
+  {
+    id: 52,
+    term: "sniffing",
+    description: `ty p e o f n e tw o rk attack also ca lle d "s n iffin g ".`,
+  },
+  {
+    id: 53,
+    term: "spamming",
+    description:
+      "sending a large n um b e r o f id e n tic a l messages to d iffe re n t groups U N IN E T",
+  },
+  {
+    id: 54,
+    term: "steganography",
+    description:
+      "a branch o f science th at studies th e m a th e m a tic a l m ethods o f h id in g c o n fid e n tia l in fo rm a tio n in open in fo rm a tio n arrays",
+  },
+  {
+    id: 55,
+    term: "threat",
+    description:
+      "set o f co n d itio n s and fa cto rs that create p o te n tia l or actual v io la tio n s o f the e x is tin g danger o f in fo rm a tio n security.",
+  },
+  {
+    id: 56,
+    term: "spoofing",
+    description:
+      "th e use o f d iffe re n t techn ologies to bypass access c o n tro l system s, IP -based addresses using m asking under another system u sin g its IP-address.",
+  },
+  {
+    id: 57,
+    term: "phishing",
+    description:
+      "In te rn e t-fra u d technique, is used fo r ste aling personal co n fid e n tia l data such as passwords, bank and id e n tific a tio n cards, etc.",
+  },
+  {
+    id: 58,
+    term: "fraud",
+    description:
+      "deception; fra u d scam ; fake. K in d o f In te rn e t fra u d in w h ic h the scam m er in m any w ays u n la w fu lly obtains som e o f the m on ey o r services re la tin g to a ny service.",
+  },
+  {
+    id: 59,
+    term: "hacker",
+    description:
+      "a user w h o is try in g to m ake changes to system softw are, o fte n w ith o u t th a t rig ht. Can be ca lle d a hacker p ro g ra m ­m e r w h o creates a m ore o r less useful u tility p rogram s are usually p o o rly docum ented and som etim es cause unw anted side effects",
+  },
+  {
+    id: 60,
+    term: "worm",
+    description:
+      "programs implemented in the system, often malicious, and interrupting the flow of processing information in thesystem. Unlike vimses worm usually does not distort the data filesand programs. Typically, the worm is executed, undetected, andthen deletes itself",
+  },
+  {
+    id: 61,
+    term: "exploit",
+    description:
+      "computer program code snippet or a sequence of commands that use vulnerabilities in software and used for an attack on a computer system.",
+  },
+  {
+    id: 62,
+    term: "efficiency",
+    description:
+      "object property to satisfy the requirements of the service with the given quantitative characteristics.",
+  },
 ];
 
 export const ru = [
@@ -735,5 +995,137 @@ export const ru = [
     term: "мандат",
     description:
       "разновид ность указателя, определяющий путь доступа к объекту и разрешенные над ним операции.",
+  },
+  {
+    id: 41,
+    term: "маскарад",
+    description:
+      "п о п ы тка п о л у ч и ть д о ступ к систем е, о бъ е кту или вы п о л н ен и е д р у ги х д е й ств и й субъектом , не облад аю щ им п о л н о м о ч и я м и на соотве тств ую щ ее действие и в ы д а ю щ и м себя за д р у го го , ко то р о м у эти д е й стви я разрешены.",
+  },
+  {
+    id: 42,
+    term: "наблюдаемость",
+    description:
+      "возм ож ность для о тв е тств е н н ы х за з а щ и т у инф ор м ации л и ц восстанавливать х о д н а р уш ен и я или п о п ы т к и н а р уш е н и я безопасности инф ор м а ци о нн о й систем ы .",
+  },
+  {
+    id: 43,
+    term: "надежность",
+    description:
+      "ха ра кте р и сти ка спосо бн ости ф ун кц и о н а л ьн о го узл а , устро й ства , систем ы вы п ол н я ть при определенны х у с л о в и я х требуем ы е ф ун кц и и в течение определенного периода вр ем ени.",
+  },
+  {
+    id: 44,
+    term: "нападающий",
+    description:
+      "субъ ект, де йствия к о то р о го н а р у ш а ю т без о п а сн о сть ин ф ор м а ци и в рассм атриваем ой ко м п ь ю те р н о й систем е.",
+  },
+  {
+    id: 45,
+    term: "нарушитель",
+    description:
+      "субъ ект, де йствия к о то р о го н а р у ш а ю т без о п а сн о сть ин ф ор м а ци и в рассм атриваем ой ко м п ь ю те р н о й систем е.",
+  },
+  {
+    id: 46,
+    term: "пароль",
+    description:
+      " уникальная последовательность сим волов, к о то ­р у ю н ео б хо д и м о ввести по запросу ко м пью тера, ч то б ы и с к л ю ­чить д о с ту п к систем е, програм м е и л и данны м .",
+  },
+  {
+    id: 47,
+    term: "подотчетность",
+    description:
+      "возм ож ность п р о вер ки ; имеет две сто ­роны : во -п ер вы х, л ю б о е состояние систем ы м о ж н о в е рн уть в исход ное для вы яснения то го , как систем а в нем оказалась; во - вторы х, и м е ю щ и й с я порядок проведения а удита безопасности позволяет гарантировать, что систем а уд овлетвор яет всем заявленным требованиям .",
+  },
+  {
+    id: 48,
+    term: "полномочия",
+    description:
+      "п р а в о пользователя (терм инала, п р о гр а м ­мы, систем ы ) о с у щ е с т в л я т ь те и л и и н ы е п роцед уры над за щ и ­щ е н н ы м и д а н н ы м и ",
+  },
+  {
+    id: 49,
+    term: "протокол",
+    description:
+      "со вокупность правил, о п р ед е л я щ и х алгоритм вза и м о д е й ств и я ус тр о й с тв , програм м , систем об р аб отки д а н ­н ы х , про цессов и л и пользователей.",
+  },
+  {
+    id: 50,
+    term: "резидентный",
+    description:
+      "п о сто я н н о п р и с у т с т в у ю щ и й в оперативн о й пам яти.",
+  },
+  {
+    id: 51,
+    term: "скремблер",
+    description:
+      "к о д и р у ю щ е е у стр о й ств о , используем ое в цифровом канале, к о то р о е вы дает с л у ч а й н у ю последовательн ость бит",
+  },
+  {
+    id: 52,
+    term: "сниффинг",
+    description:
+      "вид сетевой атаки, такж е называется «пасси вн ое п р о сл уш и в а н и е сети».",
+  },
+  {
+    id: 53,
+    term: "спамминг",
+    description:
+      "п о сы л ка б о л ьш о го числа о д и н а ко в ы х со о б ­щ е н и й в различны е гр у п п ы U N IN E T",
+  },
+  {
+    id: 54,
+    term: "стеганография",
+    description:
+      "отрасль н а уки , изучаю щ ая м атем атическ и е м е то д ы со кры ти я конф ид енц иа льной инф орм ации в о тк р ы ­т ы х и н ф о р м а ц и о н н ы х массивах.",
+  },
+  {
+    id: 55,
+    term: "угроза",
+    description:
+      "со вокуп н о сть у с л о ­в и й и ф акторов, со зд а ю щ и х п о те н ц и а л ь н ую или реально с у ­щ е с т в у ю щ у ю опасность н ар уш ен и я безопасности инф орм ации.",
+  },
+  {
+    id: 56,
+    term: "фальсификация",
+    description:
+      "использование р азл ичны х т е х н о л о ги й для о бхо д а систем упра вления д о ступ о м на основе IP -адресов с п о м о щ ь ю м аскирования п о д д р у гу ю систем у, и сп ол ьзуя ее IP - адрес.",
+  },
+  {
+    id: 57,
+    term: "фишинг",
+    description:
+      "те хн о л о ги я и н те р не т-м о ш енн ичества , заклю ­ч аю щ а яся в краж е л и ч н ы х ко нф и д е нц и а л ьны х д а н н ы х, та к и х как п ар о л и доступа, данны е б а н к о в с к и х и и д е н ти ф и ка ц и о н н ы х карт и т.д.",
+  },
+  {
+    id: 58,
+    term: "фрод",
+    description:
+      "обм ан; м о ш е нн и че ство , ж ул ьн и че ство , подделка. В и д инте р не т-м о ш е нн и чества , п р и котором м о ш е н н и к сам ы м и разны м и способам и незаконно получает к а к у ю -т о часть денег и л и у с л у г, о тн о ся щ и хся к ка ко м у-л и б о сервису.",
+  },
+  {
+    id: 59,
+    term: "xакер",
+    description:
+      "пользователь, ко то р ы й пы тается вн оси ть изм енен ия в систем ное про гра м м но е обеспечение, зачастую не имея на это право. Х акером м о ж н о назвать програм м иста, ко торы й создает более или менее полезны е вспом огательны е п р о гр а м ­м ы , о б ы чн о плохо д о кум е н ти р о в а н н ы е и и н о гд а вы зы ваю щ ие неж елательны е п о б о ч н ы е результаты .",
+  },
+  {
+    id: 60,
+    term: "червь",
+    description:
+      "програм м а, внедряемая в систем у злонам еренно, вр езультате ко то р о й преры вается х о д об раб отки инф орм ации всистеме. В отличие от вирусов, червь не искажает файлы данных и программы. Обычно червь выполняется, оставаясь необнаруженным, и затем самоуничтожается",
+  },
+  {
+    id: 61,
+    term: "эксплойт",
+    description:
+      "компьютерная программа, фрагмент программного кода или последовательность команд, использующие уязвимости в программном обеспечении и применяемые для проведения атаки на компьютерную систему.",
+  },
+  {
+    id: 62,
+    term: "эффективность",
+    description:
+      "свойство объекта удовлетворять требованиям к услуге с заданными количественными характеристиками.",
   },
 ];
