@@ -27,6 +27,18 @@ const About = () => {
           ? "About app"
           : "О программе"}
       </Text>
+      <Text
+        style={{
+          ...styles.aboutTitle,
+          color: isLight ? eColors.BLACK : eColors.WHITE,
+        }}
+      >
+        {language === "uz"
+          ? "Axborot xavfsizligi sohasidagi terminlar va ularning tavsiflari berilgan mobil ilova"
+          : language === "en"
+          ? "A mobile application with information security terms and their descriptions"
+          : "Мобильное приложение с терминами защиты информации и их описанием"}
+      </Text>
     </View>
   );
 };
