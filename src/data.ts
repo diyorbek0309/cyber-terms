@@ -8,7 +8,8 @@ export const uz = [
   {
     id: 1,
     term: "identifikatsiya",
-    description: "Foydalanuvchi aniqlash jarayoni",
+    description:
+      "bir shaxsning kimligini tasdiqlovchi ma'lumotlarni topishni, shaxsni boshqa shaxslardan ajratib olishni yoki shaxsning boshqalarga o'zini tasdiqlashni o'z ichiga oladi. Bu jarayonda tizimga kirish uchun foydalanuvchi nomi va parol, tizimda o'zining foydalanuvchi nomini va parolini tasdiqlab berish uchun ishlatiladi. Boshqacha so'z bilan aytganda, identifikatsiya bir shaxsning o'zini tizimga kirish uchun tasdiqlash jarayonidir",
   },
   {
     id: 2,
