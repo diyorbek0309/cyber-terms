@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CyberDict",
-    "slug": "CyberDict",
+    "slug": "cyber-terms",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
