@@ -3,7 +3,7 @@ export const uz = [
     id: 0,
     term: "autentifikatsiya",
     description:
-      "odatda, tizim resurslaridan foydalanishga ruxsat etish xususida qaror qabul qilish uchun foydalanuvchining (haqiqiyligini), qurilmaning yoki tizimning boshqa tashkil etuvchisining identifikatsiyasini tekshirish saqlanuvchi va uzatiluvchi ma’lumotlarning ruxsatsiz modifikatsiyalanganligini aniqlash uchun tekshirish",
+      "odatda, tizim resurslaridan foydalanishga ruxsat etish xususida qaror qabul qilish uchun foydalanuvchining haqiqiyligini, qurilmaning yoki tizimning boshqa tashkil etuvchisining identifikatsiyasini tekshirish saqlanuvchi va uzatiluvchi ma’lumotlarning ruxsatsiz modifikatsiyalanganligini aniqlash uchun tekshirish",
   },
   {
     id: 1,
@@ -15,13 +15,13 @@ export const uz = [
     id: 2,
     term: "avtorizatsiya",
     description:
-      "tizimda foydalanuvchiga, uning ijobiy autenfikatsiyasiga asosan, ma’lum foydalanish huquqlarini taqdim etish",
+      "identifikatsiya ma'lumotlarini (masalan, foydalanuvchi nomi va parol) tasdiqlayib, shaxsning kimligini tasdiqlovchi ma'lumotlardan foydalanarak, shaxsga belgilangan resurslarga kirishga ruxsat beradi. Avtorizatsiya jarayoni, amalda foydalanuvchi huquqlarini, rolini va imtiyozlarini tasdiqlayadi",
   },
   {
     id: 3,
     term: "algoritm",
     description:
-      "amallaring cheklangan soni yordamida masala yechimmi belgilovchi buyruqlaming cheklangan to‘plami",
+      "amallaring cheklangan soni yordamida masala yechimmi belgilovchi buyruqlaming cheklangan to‘plami. Belgilangan vazifani bajarish uchun bir yoki bir nechta tartiblangan amallardan iborat bo'lgan matematikaviy modeldir. Bu amallar to'plami, bir muammoga hal topish vaqtini va energiyasini optimallashtirish maqsadida belgilanadi",
   },
   {
     id: 4,
